@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Relief Image</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/0.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_wrapper">
+        <div class="header_block">
+          <div class="header_pagination_block">
+            <ul class="header_pagination_wrapper">
+              <a href="#about"><li class="header_pagination">О компании</li></a>
+              <a href="#project"><li class="header_pagination">Проекты</li></a>
+              <a href="#work"><li class="header_pagination">Уход за садом</li></a>
+              <a href="#landscape"><li class="header_pagination">Ландшафт</li></a>
+              <a href="#feedback"><li class="header_pagination">Отзывы</li></a>
+            </ul>
+          </div>
+          <div class="header_social_block">
+            <span class="header_social_number"
+              ><img src="assets/16.png" alt="image" class="span2" />тел.+7 (981)
+              98-50-04</span
+            >
+            <span class="header_social_number"
+              ><img
+                src="assets/17.png"
+                alt="image"
+                class="span2"
+              />Санкт-Петербург и ЛО</span
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="title">
+        <div class="title_wrapper">
+          <div class="title_block_wrapper">
+            <img src="assets/00.png" alt="image" class="title_image" />
+            <h1 class="h1">БЛАГОУСТРОЙСТВО И ОЗЕЛЕНЕНИЕ УЧАСТКОВ</h1>
+            <button class="title_button" id="myBtn">Оставить заявку</button>
+			        <!-- .............................Модальное окно..................................... -->
+						<div id="myModal" class="modal">
+							<div class="modal_content_wrapper"></div>
+					  </div>
+					  <!--............................... Модальное окно...................................... -->
+          </div>
+          <div class="title_social_wrapper">
+            <img src="assets/5.png" alt="image" class="title_social" />
+            <img src="assets/6.png" alt="image" class="title_social" />
+            <img src="assets/7.png" alt="image" class="title_social" />
+          </div>
+        </div>
+        <div class="absolute">
+          <div class="absolute_block_wrapper">
+            <img src="assets/8.png" alt="image" class="absolute_image1" />
+            <p class="absolute_text">Опыт работы более 10 лет</p>
+          </div>
+          <div class="absolute_block_wrapper">
+            <img src="assets/9.png" alt="image" class="absolute_image2" />
+            <p class="absolute_text">Гарантия на растения</p>
+          </div>
+          <div class="absolute_block_wrapper">
+            <img src="assets/10.png" alt="image" class="absolute_image3" />
+            <p class="absolute_text">Лучшие питомники</p>
+          </div>
+        </div>
+      </section>
+      <a name="about"
+          ><section class="about"></a>
+        <img src="assets/18.png" alt="image" class="absolute2" />
+        <img src="assets/11.png" alt="image" class="about_image"
+        />
+        <div class="about_us">
+          <p class="about_us_title">О КОМПАНИИ</p>
+          <p class="about_us_text">
+            Relief Image - компания по уходу за садом и ландшафтом. Более 10 лет
+            мы занимаемся благоустройством загородных участков, также имеем
+            порядка 60 готовых работ в Ленинградской области и Санкт-Петербурге.
+            К нам обращаются и доверяют уже более 20 постоянных клиентов за
+            помощью по благоустройству и уходу участков. Наша компания
+            отличается КАЧЕСТВОМ выполненных работ, ГАРАНТИЕЙ на растения,
+            ЛУЧШИМИ питомниками для вашего участка и разработкой проекта ПОД
+            КЛЮЧ. Обратившись к нашим специалистам, вы всегда будете
+            чувствовать, как мы с большим вниманием относимся к вашим
+            предпочтениям. Одной из ключевых задач нашей компании является то,
+            что бы клиент всегда оставался доволен и наслаждался выполненной
+            работой. Если вас интерисовали именно эти критерии при подборе
+            спициалистов, то вы попали в нужные руки!
+          </p>
+        </div>
+        <div class="about_project_wrapper">
+          <img src="assets/12.png" alt="image" class="project_title_image" />
+          <a name="project"
+          ><div class="project_wrapper">
+            <div class="project_block_wrapper">
+              <button class="project_block_but"  id="btnPravdinskoe">Правдинское</button>
+							<!-- .............................Модальное окно..................................... -->
+							<div id="modalPravdinskoe" class="modal">
+								<div class="modal_content_wrapper2"></div>
+					  	</div>
+					  	<!--............................... Модальное окно...................................... -->
+            </div>
+            <div class="project_block_wrapper2">
+              <div class="project_block">
+                <button class="project_block_but2"  id="btnRepino">Репино</button>
+								<!-- .............................Модальное окно..................................... -->
+								<div id="modalRepino" class="modal">
+									<div class="modal_content_wrapper3"></div>
+					  		</div>
+					  		<!--............................... Модальное окно...................................... -->
+              </div>
+              <div class="project_block2">
+                <button class="project_block_but3"  id="btnPetergoph">Петергоф</button>
+								<!-- .............................Модальное окно..................................... -->
+								<div id="modalPetergoph" class="modal">
+									<div class="modal_content_wrapper4"></div>
+					  		</div>
+					  		<!--............................... Модальное окно...................................... -->
+              </div>
+            </div>
+          </div></a>
+        </div>
+      </section>
+      <a name="work"
+      ><section class="work">
+        <img src="assets/13.png" alt="image" class="work_image" />
+        <div class="work_company">
+          <p class="work_company_text">
+            Каждый участок требует постоянный профессиональный уход, чтобы
+            поддерживать ту красоту, которую планировал ландшафтный дизайнер.
+            Это подразумевает большой комплекс работ, требующих много времени.
+            Доверьтесь нашим опытным садоводам! И мы гарантируем качество работ,
+            здоровый сад, а самое главное ваше сэкономленное время.
+          </p>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_block_wrapper">
+            <div class="work_button_wrapper">
+              <button class="work_button1">СЕЗОННЫЕ ВЫЕЗДЫ</button>
+              <button class="work_button2">ОСЕНЬ</button>
+              <button class="work_button3">ВЕСНА</button>
+              <button class="work_button4">ЛЕТО</button>
+            </div>
+            <div class="work_text_wrapper1">
+              <p class="text_wrapper1">&#127793; Стоимость выезда рассчитывается индивидуально (в зависиомсти от площади участка, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;удалённости, сложности проводимых работ, количества задействованных людей)</p>
+            </div>
+            <div class="work_text_wrapper2">
+				<p class="text_wrapper2">&#127793; Уход за цветниками (обрезка сухого, рыхление, прополка)</p>
+				<p class="text_wrapper2">&#127793; Уход за газоном (осенняя подкормка)</p>
+				<p class="text_wrapper2">&#127793; Стрижка газона</p>
+				<p class="text_wrapper2">&#127793; Деление растений (по мере необходимости)</p>
+				<p class="text_wrapper2">&#127793; Уборка листьев</p>
+				<p class="text_wrapper2">&#127793; Подготовка растений к зиме</p>
+			</div>
+            <div class="work_text_wrapper3">
+				<p class="text_wrapper3">&#127793; Обрезка плодовых (производится с ноября по март, до первого сокодвижения)</p>
+				<p class="text_wrapper3">&#127793; Санитарная обрезка роз (производтся с апреля по май, удаление повреждённых веток после &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;зимы)</p>
+				<p class="text_wrapper3">&#127793; Внесение удобрения на все посадки (производится ранней весной по снегу)</p>
+				<p class="text_wrapper3">&#127793; Обработка от вредителей и болезней (устойчивая температура от +5)</p>
+				<p class="text_wrapper3">&#127793; Уход за газоном (скарификация, аэрация, мульчирование, удобрение, производится после &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;полного просыхания газона)</p>
+			</div>
+            <div class="work_text_wrapper4">
+				<p class="text_wrapper4">&#127793; Уход за цветниками (прополка, обрезка сухого, рыхление)</p>
+				<p class="text_wrapper4">&#127793; Формовочная обрезка (фигурная стрижка, стрижка изгородей, производитсяпо мере роста)</p>
+				<p class="text_wrapper4">&#127793; Стрижка газона</p>
+				<p class="text_wrapper4">&#127793; Обработка газона от сорняков (первая обработка производится после первого коса газона)</p>
+				<p class="text_wrapper4">&#127793; Внесение удобрений ( по газону производится 1 раз в 2 недели, по цветниками в зависимости &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;от растений)</p>
+				<p class="text_wrapper4">&#127793; Обработка от вредителей и болезней (производится с интервалом в 10-14 дней)</p>
+				<p class="text_wrapper4">&#127793; Обработка мощения от сорняков (производится 1 раз в месяц)</p>
+			</div>
+          </div>
+          <p class="work_block_text">
+            * Выезд и консультация специалиста оплачивается отдельно.
+          </p>
+          <p class="work_block_text2">
+            * Отдельно оплачивается: вывоз мусора, химия, удобрение, материалы
+            для дополнительных работ ( например: земля, мульча, бордюрная лента
+            и т.д.)
+          </p>
+        </div>
+      </section></a>
+      <a name="landscape"
+          ><section class="feedback">
+        <img src="assets/19.png" alt="image" class="landscape_image" />
+        <div class="landscape_company">
+          <p class="landscape_company_text">
+            Ландшафтный дизайн помогает обеспечить красивый вид вокруг вашего
+            дома. Ведь участок должен выглядеть эстетично, иметь логическую
+            структуру и радовать глаз. Чтобы избежать лишних разочарований,
+            необходимо грамотно продумать и разработать дизайн-проект. Обладая
+            теоретическими знаниями и практическим опытом, мы воплотим в
+            реальность все ваши пожелания.
+          </p>
+        </div>
+        <div class="landscape_block_wrapper"></div>
+        <img src="assets/11.png" alt="image" class="feedback_image" />
+        <img src="assets/20.png" alt="image" class="feedback_img" />
+        <div class="feedback_wrapper">
+          <a name="feedback"
+          ><div class="feedback_photos">
+            <div class="photos1"></div>
+            <div class="photos2"></div>
+            <div class="photos3"></div>
+          </div></a>
+          <img src="assets/34.png" alt="image" class="feedbacks" />
+        </div>
+      </section></a>
+    </main>
+    <footer class="footer">
+      <div class="footer_wrapper">
+        <div class="footer_contacts">
+          <div class="footer_contacts_name">
+            <p class="contact">Контакты</p>
+          </div>
+          <div class="footer_contacts_tel">
+            <p class="tel">Телефон</p>
+          </div>
+          <div class="footer_contacts_number">
+            <span class="number"
+              ><img src="assets/14.png" alt="image" class="span" />+7 (981)
+              98-50-04</span
+            >
+          </div>
+        </div>
+        <div class="footer_email">
+          <p class="email">E-mail</p>
+          <p class="email_name">relief.image@mail.ru</p>
+        </div>
+        <div class="footer_social">
+          <div class="footer_social_wrapper">
+            <img src="assets/5.png" alt="image" class="footer_social_image" />
+            <img src="assets/6.png" alt="image" class="footer_social_image" />
+            <img src="assets/7.png" alt="image" class="footer_social_image" />
+          </div>
+          <div class="footer_social_location">
+            <span class="location"
+              ><img
+                src="assets/15.png"
+                alt="image"
+                class="span"
+              />Санкт-Петербург и ЛО</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
